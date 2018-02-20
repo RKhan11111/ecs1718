@@ -2,6 +2,41 @@
 <html>
   <head>
   <style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+  .button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
   body {background-color:rgb(160, 99, 71);text-align:center;}
 h1 {
     font-family:Courier;
@@ -34,6 +69,16 @@ img{
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <body>
+  <ul>
+  <li><a class="active" href="https://rkhan11111.github.io/ecs1718/practice1.html">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+  <h2>Click below for more!</h2>
+<a href="https://en.wikipedia.org/wiki/Fennec_fox" class="button">Family History</a>
+<a href="https://www.nationalgeographic.com/animals/mammals/f/fennec-fox/" class="button">Explicit Diet</button>
+<a href="https://www.knoxnews.com/story/news/local/2017/11/20/should-felix-fennec-fox-allowed-inside-knox-county-parks/866986001/" class="button">Modern News</a>
 <div style="background-color:rgb(160, 99, 71);" class="jumbotron text-center">
   <div style="background-color: tomato;"class=jumbotron">
   <h1>The Fennec Fox</h1>
